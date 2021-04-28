@@ -1,0 +1,133 @@
+body {
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+body { padding-top:70px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+.navbar-default {
+    background-color: white;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    width: auto;
+}
+
+.vertical-center {
+    vertical-align: middle;
+}
+
+div.panel.panel-default > div.panel-heading {
+    /*background-color: #101063;*/
+    background-color: #383a3d;
+    color: white;
+}
+
+div.panel.panel-default {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.panel.panel-info {
+    border-radius: 0;
+    border: 1px solid lightslategrey;
+}
+
+.btn-default {
+    /*background-color: #101063;*/
+    background-color: #383a3d;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+.err-message {
+    color: red;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.jumbotron {
+    border-radius: 0;
+    background: url(../img/servers.jpeg) no-repeat;
+    color: white;
+}
+
+.shadows {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hovertext {
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+}
+
+.dashpanel:hover .hovertext {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.dashpanel:hover .hover {
+    opacity: 0.05;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    cursor: pointer
+}
+
+.hover {
+    position: relative;
+}
+
+.fa-really-big {
+    font-size: 200px;
+}
+
+.hoverwell:hover {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    cursor: pointer;
+}
+
+.hoverwell, .searchdiv {
+    background-color: white;
+}
+
+.searchbar[type=text] {
+    width: 500px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.searchbar[type=text]:focus {
+    width: 100%;
+}
+
+input[type=checkbox] {
+    transform:scale(1.8, 1.8);
+}
